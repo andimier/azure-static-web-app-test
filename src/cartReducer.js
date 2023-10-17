@@ -3,7 +3,6 @@ export default function cartReducer(cart, action) {
         case "empty":
             return [];
         case "add": {
-            debugger;
             const { id, sku } = action;
             const itemInCart = cart.find((i) => i.sku);
 
