@@ -77,7 +77,7 @@ export default function App() {
 	const formContext = {
 		storeFormOwner(owner) {
 			localStorage.setItem("formOwner", owner);
-			console.log("Hook Context. Form Owner =>", owner);
+			console.log("Hook Context. This is the Form Owner =>", owner);
 		},
 
 		setIsValidUser(isValidId) {
